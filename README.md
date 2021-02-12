@@ -11,7 +11,7 @@ Grade Group in prostate cancer.
 
 References : 
 
-1)Diagnosis of Prostate Cancer by Use of MRI-Derived Quantitative Risk Maps: A Feasibility Study
+Diagnosis of Prostate Cancer by Use of MRI-Derived Quantitative Risk Maps: A Feasibility Study
 Aritrick Chatterjee1, Dianning He1,2Xiaobing Fan1 Tatjana Antic3 Yulei Jiang1 Scott Eggener4 Gregory S. Karczmar1 Aytekin Oto1
 
 2) Automated grading of prostate cancer using convolutional neural networkand ordinal class classifier
