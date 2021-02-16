@@ -7,6 +7,12 @@ researchers to benchmark their performance for this task.  The PROSTATEx-2 Chall
 Group Challenge" ) was focused on  the development of quantitative multi-parametric MRI biomarkers for the determination of Gleason
 Grade Group in prostate cancer. 
 
+Steps:
+
+1) Convert DICOM images to Nrrd/Nifti format using the Slicer Application
+2) Preprocessing the data and converting to numpy arrays
+3) Model & Results
+
 
 
 References : 
