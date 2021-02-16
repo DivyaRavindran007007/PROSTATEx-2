@@ -10,9 +10,10 @@ Grade Group in prostate cancer.
 Steps:
 
 1) Convert DICOM images to Nrrd/Nifti format using the Slicer Application
-2) Data Exploration & Visualization
-3) Preprocessing the data and converting to numpy arrays
-4) Model & Results
+2) Add ktrans data to the Training csv file
+3) Data Exploration & Visualization
+4) Preprocessing the data and converting to numpy arrays
+5) Model & Results
 
 
 Note: Eventhough T2 tra, T2 sag, ADC, Bval and ktrans images were used till Step 2, only T2tra, ADC and Bval were used in the model(Reference:2)
