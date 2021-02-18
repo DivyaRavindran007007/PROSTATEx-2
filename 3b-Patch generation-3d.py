@@ -158,7 +158,7 @@ def main():
     if is_training_data:
         
         dataset = pd.read_pickle('D:/MSCA/CAPSTONE/Prostate2Challenge-Team2/GithubCodeNrrd/Train/dataframes/SampleTraining1.pkl')
-        #dataset = pd.read_csv('D:/MSCA/CAPSTONE/Prostate2Challenge-Team2/GithubCodeNrrd/Train/dataframes/SampleTraining2.csv')
+        #dataset = pd.read_csv('D:/MSCA/CAPSTONE/Prostate2Challenge-Team2/GithubCodeNrrd/Train/dataframes/SampleTraining1.csv')
         complete_dataset = add_patch_columns_to_df(dataset, patch_sizes)
 
         persist_data(is_training_data, complete_dataset)
