@@ -98,8 +98,8 @@ def main():
     # Drop old columns, rename new ones, and reorder...
     Trainingdata = Trainingdata.drop(columns = ['pos','ijk'])
     Trainingdata = Trainingdata.rename(columns = {'pos_tuple':'pos', 'ijk_tuple':'ijk'})
-    Trainingdata.to_csv('D:/MSCA/CAPSTONE/Prostate2Challenge-Team2/GithubCodeNrrd/Train/dataframes/SampleTraining.csv')
-    Trainingdata.to_pickle('D:/MSCA/CAPSTONE/Prostate2Challenge-Team2/GithubCodeNrrd/Train/dataframes/SampleTraining.pkl')
+    Trainingdata.to_csv('D:/MSCA/CAPSTONE/Prostate2Challenge-Team2/GithubCodeNrrd/Train/dataframes/SampleTraining1.csv')
+    Trainingdata.to_pickle('D:/MSCA/CAPSTONE/Prostate2Challenge-Team2/GithubCodeNrrd/Train/dataframes/SampleTraining1.pkl')
 
 main()
 
